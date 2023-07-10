@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fira+Sans:wght@100&family=Inter:wght@100&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans:wght@100&family=Inter:wght@100&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans:wght@100&family=Inter:wght@100&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+footer .footer-title {
+  padding-top: 227px;
+}
+footer .footer-title h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  margin: 0 auto;
+  width: 270px;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+}
+footer .footer-title h2::before {
+  position: relative;
+  top: 11px;
+  left: -6px;
+  z-index: -1;
+  content: "";
+  display: block;
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+footer .footer-title h3 {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9ca3af;
+  padding-top: 24px;
+}
+footer .cards-2 {
+  gap: 28px;
+  display: grid;
+  grid-template-columns: 198px 198px 198px 198px;
+  grid-template-areas: 76px 76px 76px 76px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+footer .cards-2 .card {
+  background: #fff;
+  box-shadow: 0px 4px 70px 0px rgba(91, 93, 99, 0.06);
+  display: flex;
+  align-items: center;
+  padding: 15px 20px 16px 12px;
+  border-radius: 11px;
+}
+footer .cards-2 .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35px;
+  height: 35px;
+}
+footer .cards-2 .card .cardtext {
+  padding: 0 8px 0 12px;
+}
+footer .cards-2 .card .cardtext p {
+  font-size: 10px;
+  line-height: 20px;
+  color: #9ca3af;
+}
+footer .cards-2 .card .cardtext h2 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #5b5d63;
+  font-family: DM Sans;
+}
+
+.ourservices .ourservices-title {
+  padding-top: 80px;
+}
+.ourservices .ourservices-title h2 {
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  text-align: center;
+}
+.ourservices .ourservices-title h2::before {
+  position: relative;
+  top: 9px;
+  left: 890px;
+  z-index: -1;
+  content: "";
+  display: block;
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.ourservices .ourservices-title h3 {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9ca3af;
+  padding-top: 24px;
+}
+.ourservices .cards {
+  display: flex;
+  width: 935px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 80px;
+}
+.ourservices .cards .card {
+  width: 280px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ourservices .cards .card:hover {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.ourservices .cards .card p {
+  padding-top: 30px;
+  color: #9ca3af;
+}
+.ourservices .cards .card span {
+  font-size: 50px;
+}

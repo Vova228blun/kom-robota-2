@@ -1,0 +1,55 @@
+.ourservices {
+  .ourservices-title {
+    padding-top: 80px;
+    h2 {
+      @include textStyle(600px, 16px, 24px);
+      color: #111827;
+      text-align: center;
+      &::before {
+        position: relative;
+        top: 9px;
+        left: 890px;
+        z-index: -1;
+        content: "";
+        display: block;
+        background-color: yellow;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+    }
+    h3 {
+      @include textStyle(400px, 16px, 24px);
+      text-align: center;
+      color: #9ca3af;
+      padding-top: 24px;
+    }
+  }
+  .cards {
+    display: flex;
+    width: 935px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 80px;
+    .card {
+      width: 280px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      }
+      p {
+        padding-top: 30px;
+        color: #9ca3af;
+      }
+      span {
+        font-size: 50px;
+      }
+    }
+  }
+}
